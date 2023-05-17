@@ -12,20 +12,6 @@ const CartContainer = () => {
 
 
   const clearCartWithAlert = ()=>{
-    Swal.fire({
-      title: 'Are you sure if you want to delete all of this?',
-      showDenyButton: true,
-      showCancelButton: false,
-      confirmButtonText: 'Yes, Delete.',
-      denyButtonText: `No, return.`,
-    }).then((result) => {
-      if (result.isConfirmed) {
-        clearCart()
-        Swal.fire('The cart has been cleaned.', '', 'success')
-      } else if (result.isDenied) {
-        Swal.fire('The cart is the same as it was.', '', 'error')
-      }
-    })
   }
 
   return (

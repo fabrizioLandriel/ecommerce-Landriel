@@ -2,6 +2,7 @@ import { Button } from "@mui/material";
 import React from "react";
 import "./Cart.css";
 import { Link } from "react-router-dom";
+import styles from "../Cart/CartContainer"
 
 const Cart = ({
   cart,

@@ -1,10 +1,10 @@
 import CartWidget from "../CartWidget/CartWidget";
 import styles from "./Navbar.module.css";
 import { Outlet, Link } from "react-router-dom";
-
 import { db } from "../../firebaseConfig";
 import { getDocs, collection } from "firebase/firestore";
 import { useEffect, useState } from "react";
+
 
 export const Navbar = () => {
   const [categories, setCategories] = useState([]);

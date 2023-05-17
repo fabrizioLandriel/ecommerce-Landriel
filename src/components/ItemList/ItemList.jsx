@@ -1,5 +1,5 @@
 import ItemCard from "./ItemCard";
-
+import styles from "../ItemList/ItemList.css"
 
 const ItemList = ({ items }) => {
   return (

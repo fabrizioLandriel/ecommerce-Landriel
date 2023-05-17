@@ -17,7 +17,7 @@ const FetchingData = () => {
       method: "POST",
       body: JSON.stringify({
         userId: 7,
-        name: "Fabrizio Landriel ",
+        name: "Fabrizio Landriel",
         edad: 18,
       }),
     });
